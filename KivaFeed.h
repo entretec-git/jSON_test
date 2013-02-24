@@ -7,11 +7,11 @@
 //
 
 #import "JSONModel.h"
-#import "LoanModel.h"
+#import "RainModel.h"
 
 @interface KivaFeed : JSONModel
 
-@property (strong, nonatomic) NSArray<LoanModel>* loans;
+@property (strong, nonatomic) NSArray<RainModel>* rain;
 
 
 @end

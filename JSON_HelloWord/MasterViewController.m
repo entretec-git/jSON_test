@@ -25,16 +25,19 @@
     [HUD showUIBlockingIndicatorWithText:@"Fetching JSON"];
     
         //fetch the feed
-    _feed = [[KivaFeed alloc] initFromURLWithString:@"http://api.kivaws.org/v1/loans/search.json?status=fundraising"
+    _feed = [[KivaFeed alloc] initFromURLWithString:@"http://knack.com.au/raindata/"
                                          completion:^(JSONModel *model, JSONModelError *err) {
                                              
                                                  //hide the loader view
                                              [HUD hideUIBlockingIndicator];
                                              
                                                  //json fetched
-                                             NSLog(@"loans: %@", _feed.loans);
+                                             NSLog(@"RainData: %@", _feed.rain);
                                              
                                          }];
+    
+       NSLog(@"Last RainData: %@", _feed.rain);
+    
 }
 
 

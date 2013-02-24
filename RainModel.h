@@ -16,7 +16,6 @@
 //@property (strong, nonatomic) NSString* name;
 //@property (strong, nonatomic) NSString* status;
 //@property (strong, nonatomic) NSString* use;
-
 @property (nonatomic, strong) NSString * rainfall_area;
 @property (nonatomic, strong) NSNumber * rainfall_coeff;
 @property (nonatomic, strong) NSNumber * rainfall_hour;

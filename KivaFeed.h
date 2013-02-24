@@ -11,7 +11,7 @@
 
 @interface KivaFeed : JSONModel
 
-@property (strong, nonatomic) NSArray<RainModel>* rain;
+@property (strong, nonatomic) NSArray<RainModel>* rainData;
 
 
 @end

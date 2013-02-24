@@ -2,6 +2,10 @@
 //  HUD.m
 //  BeatGuide
 //
+// This code is distributed under the terms and conditions of the MIT license.
+//
+// Copyright (c) 2011 Marin Todorov
+//
 
 
 #import "HUD.h"

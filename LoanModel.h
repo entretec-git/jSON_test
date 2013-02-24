@@ -12,6 +12,7 @@
 @protocol LoanModel @end
 
 @interface LoanModel : JSONModel
+
 @property (strong, nonatomic) NSString* name;
 @property (strong, nonatomic) NSString* status;
 @property (strong, nonatomic) NSString* use;

@@ -9,6 +9,8 @@
 #import "JSONModel.h"
 
 @interface LocationModel : JSONModel
+
 @property (strong, nonatomic) NSString* country_code;
 @property (strong, nonatomic) NSString* country;
+
 @end
